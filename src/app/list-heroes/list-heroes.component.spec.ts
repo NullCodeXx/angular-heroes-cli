@@ -7,6 +7,12 @@ describe('ListHeroesComponent', () => {
   let fixture: ComponentFixture<ListHeroesComponent>;
 
   beforeEach(async(() => {
+    /*
+    Avant chaque test on crée on crée un genre de NgModule,
+    avec ses propres declarations de components,
+    ses imports de module et ses providers de service.
+    pour tester : ng test
+    */
     TestBed.configureTestingModule({
       declarations: [ ListHeroesComponent ]
     })

@@ -1,3 +1,9 @@
 <p>
-  list-heroes works!
+    list-heroes works!
 </p>
+
+<ul>
+    <li *ngFor='let hero of liste' (click)="inspect(hero)">
+        {{hero.name}}
+    </li>
+</ul>
